@@ -2,7 +2,7 @@
 
 Gulp plugin for [JS Beautifier](https://github.com/beautify-web/js-beautify)
 
-This little beautifier will reformat and reindent bookmarklets, ugly JavaScript, unpack scripts packed by Dean Edward’s popular packer, as well as deobfuscate scripts processed by javascriptobfuscator.com.
+This plugin allows you to reformat ugly html, css, and javascript.
 
 ##Usage
 
