@@ -1,0 +1,33 @@
+{
+  "name": "gulp-js-beaut",
+  "version": "0.0.1",
+  "description": "Gulp plugin for asset beautification using node js-beautify",
+  "main": "./src/gulp-js-beaut.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeroedin/gulp-js-beaut"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Steven Spriggs <steven.spriggs@gmail.com> (http://stevenspriggs.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeroedin/gulp-js-beaut/issues"
+  },
+  "homepage": "https://github.com/zeroedin/gulp-js-beaut",
+  "dependencies": {
+    "event-stream": "^3.1.7",
+    "gulp-util": "^3.0.0",
+    "chalk": "^0.5.0",
+    "js-beautify": "^1.5.4",
+    "mime": "^1.2.11"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.1.0"
+  }
+}
