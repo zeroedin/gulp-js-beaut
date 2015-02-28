@@ -18,7 +18,9 @@ module.exports = function(options){
       return done(new Error('gulp-js-beautify: Streaming not supported'));
     }
     
-    gutil.log(chalk.magenta('Beautifying:'), chalk.blue(file.path));
+    if(!options.quiet) {
+      gutil.log(chalk.magenta('Beautifying:'), chalk.blue(file.path));
+    }
     
     mime_type = mime.lookup(file.path);
     
