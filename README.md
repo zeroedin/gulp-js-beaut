@@ -48,7 +48,8 @@ gulp.task('beautify', function(){
       eval_code: false,
       unescape_strings: false,
       wrap_line_length: 0
-    }
+    },
+    quiet: true //prevent printing default log
   };
 
   gulp.src([
